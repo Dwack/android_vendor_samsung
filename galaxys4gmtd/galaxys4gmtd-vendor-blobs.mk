@@ -29,9 +29,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/gps.s5pc110.so:system/vendor/lib/hw/gps.s5pc110.so \
     vendor/samsung/galaxys4gmtd/proprietary/rild:system/bin/rild \
     vendor/samsung/galaxys4gmtd/proprietary/gpsd:system/vendor/bin/gpsd \
-	vendor/samsung/vibrantmtd/proprietary/libsamsung_hwlegacy.so:system/vendor/lib/libsamsung_hwlegacy.so \
+	vendor/samsung/galaxys4gmtd/proprietary/libsamsung_hwlegacy.so:system/vendor/lib/libsamsung_hwlegacy.so \
 
 PRODUCT_COPY_FILES += \
+	vendor/samsung/galaxys4gmtd/proprietary/gps.conf:system/etc/gps.conf \
     vendor/samsung/galaxys4gmtd/proprietary/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/samsung/galaxys4gmtd/proprietary/BCM4329B1_002.002.023.0746.0832.hcd:system/bin/BCM4329B1_002.002.023.0746.0832.hcd \
     vendor/samsung/galaxys4gmtd/proprietary/brcm_patchram_plus:/system/bin/brcm_patchram_plus \
