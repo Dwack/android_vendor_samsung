@@ -54,9 +54,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/libusc.so:system/vendor/lib/libusc.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/galaxys4gmtd/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
-    vendor/samsung/galaxys4gmtd/proprietary/orientationd:system/vendor/bin/orientationd \
-    vendor/samsung/galaxys4gmtd/proprietary/geomagneticd:system/vendor/bin/geomagneticd
+    vendor/samsung/aries-common/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
+    vendor/samsung/aries-common/proprietary/orientationd:system/vendor/bin/orientationd \
+    vendor/samsung/aries-common/proprietary/geomagneticd:system/vendor/bin/geomagneticd
 
 # camera and tvout
 PRODUCT_COPY_FILES += \
@@ -70,4 +70,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/libtvoutservice.so:system/lib/libtvoutservice.so \
     vendor/samsung/galaxys4gmtd/proprietary/tvoutserver:system/bin/tvoutserver \
     vendor/samsung/galaxys4gmtd/proprietary/libtvout_jni.so:system/lib/libtvout_jni.so
+    
+# modem
+PRODUCT_COPY_FILES += \
+    vendor/samsung/galaxys4gmtd/proprietary/modem.bin:modem.bin
+   
 
