@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/rild:system/bin/rild \
     vendor/samsung/galaxys4gmtd/proprietary/gps.conf:etc/gps.conf \
     vendor/samsung/galaxys4gmtd/proprietary/gpsd:system/vendor/bin/gpsd \
-	vendor/samsung/galaxys4gmtd/proprietary/libsamsung_hwlegacy.so:system/vendor/lib/libsamsung_hwlegacy.so
+    vendor/samsung/galaxys4gmtd/proprietary/libsamsung_hwlegacy.so:system/vendor/lib/libsamsung_hwlegacy.so
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/pvrsrvinit:system/vendor/bin/pvrsrvinit \
@@ -39,7 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys4gmtd/proprietary/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
     vendor/samsung/galaxys4gmtd/proprietary/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
     vendor/samsung/galaxys4gmtd/proprietary/melfas_touchkey.kcm.bin:system/usr/keychars/melfas_touchkey.kcm.bin \
-    vendor/samsung/galaxys4gmtd/proprietary/cypress_touckey.bin:vendor/firmware/cypress_touchkey.bin \
+    vendor/samsung/galaxys4gmtd/proprietary/cypress_touchkey.bin:vendor/firmware/cypress_touchkey.bin \
     vendor/samsung/galaxys4gmtd/proprietary/samsung_mfc_fw.bin:vendor/firmware/samsung_mfc_fw.bin \
     vendor/samsung/galaxys4gmtd/proprietary/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/galaxys4gmtd/proprietary/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
